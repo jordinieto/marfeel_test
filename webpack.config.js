@@ -3,6 +3,7 @@ const webpack = require('webpack')
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 const paths = {
   src: path.join(__dirname, 'src'),
@@ -57,5 +58,9 @@ module.exports = {
         to: paths.dist + '/data'
       }
     ]),
+    new HTMLWebpackPlugin({
+      template: paths.dist + '/index.html',
+      inject: true
+     })
   ],
 }

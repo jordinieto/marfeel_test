@@ -3,28 +3,59 @@ text {
     font-weight:bold;
     fill:white;
 }
-*{
-    margin:0px;
-    padding:0px;
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+
+#root {
+display: flex;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
 }
-div#main{
-    margin:center;
-    margin-left:20%;
-    width:900px;
-    height:500px;
+
+.widget {
+padding: 10px 20px;
+@media only screen and (max-device-width: 480px) {
+    padding: 10px 5px;
 }
-div#d1{
-    width:auto;
-    height:auto;
-    float:left;
 }
-div#d2{
-    width:auto;
-    height:auto;
-    float:left;
+
+.counter {
+width: 350px;
+font-family: Helvetica, arial, sans-serif;
 }
-div#d3{
-    width:auto;
-    height:auto;
-    float:left;
+
+.counter__table {
+display: flex;
+border-bottom: 5px solid rgb(224, 224, 224);
+padding-bottom: 10px;
+}
+
+.counter__table__title {
+margin-bottom: 5px;
+margin-top: 0;
+font-size: 20px;
+}
+
+.counter__table__cell {
+width: 50%;
+font-size: 20px;
+}
+
+.counter__table__data__percentage {
+color: #333;
+}
+
+.counter__table__data__value {
+color: rgb(191, 191, 191);
+}
+
+.right {
+text-align: right;
+
 }

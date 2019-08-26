@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Revenue",
+      "unit": "€",
+      "tabletColor": "rgb(79, 208, 37)",
+      "phoneColor": "rgb(15, 89, 0)",
+      "data": {
+        "phoneAmount": 80000,
+        "tabletAmount": 120000
+      }
+    },
+    {
+      "title": "Impressions",
+      "unit": "€",
+      "tabletColor": "rgb(24, 197, 228)",
+      "phoneColor": "rgb(9, 63, 77)",
+      "data": {
+        "phoneAmount": 20000000,
+        "tabletAmount": 30000000
+      }
+    },
+    {
+      "title": "Visits",
+      "unit": "€",
+      "tabletColor": "rgb(247, 197, 13)",
+      "phoneColor": "rgb(205, 68, 16)",
+      "data": {
+        "phoneAmount": 480000000,
+        "tabletAmount": 120000000
+      }
+    }
+  ]
