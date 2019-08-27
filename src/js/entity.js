@@ -1,3 +1,4 @@
+import * as d3 from 'd3'; 
 var assign = require('object-assign')
 var SimplexNoise = require('simplex-noise');
 
