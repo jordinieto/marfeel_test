@@ -13,5 +13,6 @@ Now you can open you browser and go to `http://localhost:4800/`.
 ```
 
 ### 3. Run Test
+```
 $ npm test
 ```
