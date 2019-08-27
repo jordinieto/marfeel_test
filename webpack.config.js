@@ -1,5 +1,4 @@
 const path = require('path')
-const webpack = require('webpack')
 
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
@@ -7,13 +6,12 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 const paths = {
   src: path.join(__dirname, 'src'),
-  dist: path.join(__dirname, 'dist'),
-  data: path.join(__dirname, 'data')
+  dist: path.join(__dirname, 'dist')
 }
 
 module.exports = {
   context: paths.src,
-  entry: ['./app.js', './main.scss'],
+  entry: ['./js/app.js', './styles/main.scss'],
   output: {
     filename: 'app.bundle.js',
     path: paths.dist,
@@ -52,12 +50,6 @@ module.exports = {
       filename: 'main.bundle.css',
       allChunks: true,
     }),
-    new CopyWebpackPlugin([
-      {
-        from: paths.data,
-        to: paths.dist + '/data'
-      }
-    ]),
     new HTMLWebpackPlugin({
       template: paths.dist + '/index.html',
       inject: true

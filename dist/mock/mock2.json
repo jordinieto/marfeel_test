@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Revenue",
+      "unit": "€",
+      "tabletColor": "#5fe334",
+      "phoneColor": "#1e6907",
+      "data": {
+        "tabletAmount": 54498,
+        "phoneAmount": 125486        
+      }
+    },
+    {
+      "title": "Impressions",
+      "unit": "",
+      "tabletColor": "#27d3f2",
+      "phoneColor": "#171b6e",
+      "data": {
+        "tabletAmount": 15678100,
+        "phoneAmount": 23578654
+      }
+    },
+    {
+      "title": "Visits",
+      "unit": "",
+      "tabletColor": "#fcd926",
+      "phoneColor": "#cc3a21",
+      "data": {
+        "tabletAmount": 94651678,
+        "phoneAmount": 157487560      
+      }
+    }
+  ]
